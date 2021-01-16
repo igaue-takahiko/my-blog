@@ -1,11 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
+import 'antd/dist/antd.css'
+import '@quasar/extras/ionicons-v4/ionicons-v4.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import './assets/scss/base.scss'
+
 ReactDOM.render(
     <React.StrictMode>
-        <App />
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
     </React.StrictMode>,
     document.getElementById('root')
 );
