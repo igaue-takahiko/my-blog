@@ -3,7 +3,7 @@ import { Switch, Route } from 'react-router-dom';
 import { Navigation } from './components';
 
 import {
-    Home
+    Home,
 } from './pages';
 
 const App = () => {

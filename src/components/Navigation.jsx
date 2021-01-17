@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { Avatar } from 'antd';
+import MyImage from '../assets/images/my-Image.jpeg';
 
 const navLinks = [
     {
@@ -47,8 +48,8 @@ const Navigation = () => {
                     ))}
                 </ul>
                 <div className="menu-avatar-container">
-                    <Avatar size={50} />
-                    <span className="menu-avatar-name">Web Developer</span>
+                    <Avatar size={50} src={MyImage} />
+                    <span className="menu-avatar-name">Takahiko Igaue</span>
                 </div>
             </div>
             <i
